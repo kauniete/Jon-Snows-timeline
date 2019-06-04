@@ -1,0 +1,196 @@
+body {
+  padding: 3%;
+  background-image: radial-gradient(
+    circle,
+    #c0c0c0,
+    #cccccc,
+    #d7d7d7,
+    #e3e3e3,
+    #efefef,
+    #edebf0,
+    #ede7f0,
+    #eee3ef,
+    #e8cddc,
+    #e5b7c2,
+    #dea2a3,
+    #d1907f
+  );
+  padding-top: 5%;
+}
+/*{font-size: 18px;}
+p {
+  font-size: 12px;
+  font-family: "Oswald", sans-serif;
+}*/
+
+.s1e3,
+.s6e3,
+.s2e10,
+.s3e6,
+.s4e9,
+.s5e7,
+.s7e4,
+.s7e6,
+.s8e1,
+.s6e9 {
+  animation: 1.3s infinite blink alternate ease-in;
+  fill: black;
+  cursor: pointer;
+}
+
+@keyframes blink {
+  from {
+    fill: black;
+  }
+  to {
+    fill: brown;
+    outline: dashed 2px white;
+  }
+}
+
+/*source https://css-tricks.com/snippets/css/shake-css-keyframe-animation/*/
+.body {
+  animation: shake 0.82s both infinite;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-0.2px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(0.6px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(1px, 0, 0);
+  }
+}
+/*source https://css-tricks.com/snippets/css/shake-css-keyframe-animation/*/
+
+/*source http://angrytools.com/css/animation/*/
+.wighthunt {
+  -webkit-animation: jump 1.5s 0s infinite normal;
+  animation: jump 1.5s 0s infinite normal;
+}
+
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-30px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*source http://angrytools.com/css/animation/*/
+
+.sword {
+  animation: glow 2.5s alternate infinite;
+}
+@keyframes glow {
+  0%,
+  100% {
+    color: -internal-root-color;
+  }
+  60% {
+    fill: red;
+  }
+}
+
+.season1,
+.season2,
+.season3,
+.season4,
+.season5,
+.season6,
+.season6two,
+.season7,
+.season7two,
+.season8
+/*.snows1,*/
+/*.killedbrother,*/
+/*.topofthewall,*/
+/*.dyingygritte,*/
+/*.tormund,*/
+/*.body,*/
+/*.horses,*/
+/*.dragondj,
+/*.wighthunt,*/
+/*.beforefight,
+/*.s1img,
+.s1text,*/
+/*.s2text,
+.s2img,*/
+/*.s3text,
+.s3img,*/
+/*.s4img,
+.s4text,*/
+/*.s5img,
+.s5text,*/
+/*.s6img,
+.s6text,*/
+/*.s6img2,
+.s6text2,*/
+/*.s7img1,
+.s7text1,
+/*.s7img2,
+.s7text2,*/
+/*.s8img,
+.s8text*/ {
+  display: none;
+}
